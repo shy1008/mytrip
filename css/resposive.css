@@ -1,0 +1,236 @@
+/* 데스크탑 */
+@media (max-width: 1190px){
+    #wrap{
+        overflow-x: hidden;
+    }
+    .wrap{
+        max-width: 1024px;
+    }
+    header .middle_box h2{
+        font-size: 2.2rem;
+    }
+    .swiper-wrapper{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .banner{
+        margin: 0px;
+        /* height: 300px; */
+    }
+    .banner_img{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .ads_img{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .content, .content2{
+        width: 100%;
+        min-width: 100%;
+    }
+    .content h2, .content2 h2{
+        margin-left: 20px;
+    }
+    .content_wrap{
+        margin-left: 20px;
+        
+    }
+    .content2_wrap{
+        margin: 20px;
+    }
+    .footer_wrap{
+        width: 100%;
+    }
+}
+@media (max-width: 1100px){
+    header .box2 ul{
+        text-align: center;
+    }
+    header .box2 li a{
+        font-size: 0.9rem;
+    }
+    header .box1{
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 900px){
+    
+    header .box2 ul{
+        text-align: center;
+    }
+    header .box2 li a{
+        font-size: 0.9rem;
+    }
+    header .box1{
+        padding: 0 40px;
+
+    }
+    
+    header .middle_box h2{
+        font-size: 1.5rem;
+    }
+    .content2_wrap{
+        width: 95%;
+        height: auto;
+        display: inline-block;
+    }
+    .content2_text{
+        text-align: center;
+        display: inherit;
+        width: 93%;
+        margin: 0 auto 25px; 
+    }
+    .content_wrap{
+        margin-left: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+
+    }
+    .ads{
+        margin: 0 auto;
+    }
+    .swiper-wrapper h3{
+        font-size: 16px;
+        color: #343a40;
+    }
+    .swiper-wrapper{
+        height: 70px;
+    }
+    .round_boxs{
+        height: 85px;
+    }
+    section{
+        height: auto;
+    }
+    .footer_left{
+        width: 100%;
+    }
+    .footer_right{
+        display: none;
+    }
+  
+}
+/* 태블릿 */
+@media (max-width: 768px){
+    header{
+        height: 350px;
+    }
+    header .box2 ul{
+        text-align: center;
+    }
+    header .box2 li a{
+        font-size: 0.9rem;
+    }
+    header .box1{
+        padding: 0 40px;
+
+    }
+    header .middle_box h2{
+        font-size: 1.5rem;
+    }
+    .banner{
+        margin: 0px;
+        height: 200px;
+    }
+  
+}
+@media (max-width: 600px){
+    header .box1 ul{
+        display: none;
+    }
+    header h1{
+        margin: 0 auto;
+        float: inherit;
+    }
+    header .ham{
+        display: block;
+    }
+    .content2_wrap{
+        width: 93%;
+        height: auto;
+    }
+}
+/* 모바일 */
+@media (max-width: 576px){
+    header{
+        height: 330px;
+    }
+    header .box1 ul{
+        display: none;
+    }
+    header .box2 li{
+        margin-right: 10px;
+    }
+    header .box2 li a{
+        font-size: 12px;
+    }
+    header h1{
+        margin: 0 auto;
+        float: inherit;
+    }
+    header .ham{
+        display: block;
+    }
+    header .middle_box h2{
+        font-size: 22px;
+    }
+    .banner{
+        margin: 0px;
+        height:140px;
+    }
+    .ads{
+        margin: 0 auto;
+    }
+    .swiper-wrapper h3{
+        font-size: 14px;
+        color: #343a40;
+    }
+    .content2_wrap{
+        width: 93%;
+        height: auto;
+    }
+    .content_box{
+        width: 93%;
+        float: initial;
+        display: inline-block;
+        margin-left: 17px;
+    }
+    .content_wrap{
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+  
+}
+@media (max-width: 414px){
+    header .box1 ul{
+        display: none;
+    }
+    header .box2 li{
+        margin-right: 10px;
+    }
+    header .box2 li a{
+        font-size: 10px;
+    }
+    header h1{
+        margin: 0 auto;
+        float: inherit;
+    }
+    header .ham{
+        display: block;
+    }
+    .banner{
+        margin: 0px;
+        height: 150px;
+    }
+    .ads{
+        margin: 0 auto;
+    }
+}
