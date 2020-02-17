@@ -57,11 +57,11 @@ Header.innerHTML = `
                     <ul>
                         <li class="nav_list"><a href="index.html?id=ticket&pageno=0">투어&티켓</a></li>
                         <li class="nav_list"><a href="airport.html?id=airplan&pageno=1">항공권</a></li>
-                        <li class="nav_list"><a href="main.html?id=home&pageno=2">숙소</a></li>
-                        <li class="nav_list"><a href="main.html?id=a2&pageno=3">특가여행</a></li>
-                        <li class="nav_list"><a href="main.html?id=a3&pageno=4">패키지</a></li>
-                        <li class="nav_list"><a href="main.html?id=a4&pageno=5">여행자보험</a></li>
-                        <li class="nav_list"><a href="main.html?id=a5&pageno=6">여행준비</a></li>
+                        <li class="nav_list"><a href="#">숙소</a></li>
+                        <li class="nav_list"><a href="#">특가여행</a></li>
+                        <li class="nav_list"><a href="#">패키지</a></li>
+                        <li class="nav_list"><a href="#">여행자보험</a></li>
+                        <li class="nav_list"><a href="#">여행준비</a></li>
                     </ul>
                 </div>
             </div>
